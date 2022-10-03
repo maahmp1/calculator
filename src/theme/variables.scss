@@ -26,6 +26,14 @@
   --ion-color-secondary-shade: #36abe0;
   --ion-color-secondary-tint: #50c8ff;
 
+  // azulescuro
+  --ion-color-azulescuro: #06283d;
+  --ion-color-azulescuro-rgb: 6, 40, 61;
+  --ion-color-azulescuro-contrast: #ffffff;
+  --ion-color-azulescuro-contrast-rgb: 255, 255, 255;
+  --ion-color-azulescuro-shade: #052336;
+  --ion-color-azulescuro-tint: #1f3e50;
+
   /** tertiary **/
   --ion-color-tertiary: #5260ff;
   --ion-color-tertiary-rgb: 82, 96, 255;
@@ -153,6 +161,7 @@
     --ion-color-light-shade: #1e2023;
     --ion-color-light-tint: #383a3e;
 
+<<<<<<< HEAD
 
     --ion-color-colorback: #06283d;
     --ion-color-colorback-rgb: 6,40,61;
@@ -160,12 +169,23 @@
     --ion-color-colorback-contrast-rgb: 255,255,255;
     --ion-color-colorback-shade: #052336;
     --ion-color-colorback-tint: #1f3e50;
+=======
+    //bege
+
+    --ion-color-bege: #dcd7c9;
+    --ion-color-bege-rgb: 220, 215, 201;
+    --ion-color-bege-contrast: #000000;
+    --ion-color-bege-contrast-rgb: 0, 0, 0;
+    --ion-color-bege-shade: #c2bdb1;
+    --ion-color-bege-tint: #e0dbce;
+>>>>>>> abf119ad7933084d0a0b8d0f4b06e69542dba2fa
   }
 
   /*
    * iOS Dark Theme
    * -------------------------------------------
    */
+<<<<<<< HEAD
    .ion-color-colorback {
     --ion-color-base: var(--ion-color-colorback);
     --ion-color-base-rgb: var(--ion-color-colorback-rgb);
@@ -173,8 +193,25 @@
     --ion-color-contrast-rgb: var(--ion-color-colorback-contrast-rgb);
     --ion-color-shade: var(--ion-color-colorback-shade);
     --ion-color-tint: var(--ion-color-colorback-tint);
+=======
+   .ion-color-bege {
+    --ion-color-base: var(--ion-color-bege);
+    --ion-color-base-rgb: var(--ion-color-bege-rgb);
+    --ion-color-contrast: var(--ion-color-bege-contrast);
+    --ion-color-contrast-rgb: var(--ion-color-bege-contrast-rgb);
+    --ion-color-shade: var(--ion-color-bege-shade);
+    --ion-color-tint: var(--ion-color-bege-tint);
+>>>>>>> abf119ad7933084d0a0b8d0f4b06e69542dba2fa
   }
 
+  .ion-color-azulescuro {
+    --ion-color-base: var(--ion-color-azulescuro);
+    --ion-color-base-rgb: var(--ion-color-azulescuro-rgb);
+    --ion-color-contrast: var(--ion-color-azulescuro-contrast);
+    --ion-color-contrast-rgb: var(--ion-color-azulescuro-contrast-rgb);
+    --ion-color-shade: var(--ion-color-azulescuro-shade);
+    --ion-color-tint: var(--ion-color-azulescuro-tint);
+  }
   .ios body {
     --ion-background-color: #000000;
     --ion-background-color-rgb: 0, 0, 0;
@@ -212,7 +249,6 @@
     --ion-toolbar-background: var(--ion-color-step-150);
     --ion-toolbar-border-color: var(--ion-color-step-250);
   }
-
 
   /*
    * Material Design Dark Theme
