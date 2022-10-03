@@ -1,13 +1,57 @@
-ion-content{
-  p{
-    margin: 3%;
+ion-header {
+  font-family: 'Heebo', sans-serif;
+
+
+  ion-toolbar {
+    --background: #06283D;
+
+    ion-title {
+      font-family: 'Heebo', sans-serif;
+      font-weight: bold;
+
+    }
   }
 }
 
-ion-button{
-  width: 81px;
-  
+
+ion-content {
+  --background: #B1D0E0;
 }
-.maior{
-  width: 166px;
+
+ion-card {
+  --background: #CAF0F8;
+
+  .downitens {
+    --background: #6998AB;
+  }
+
+  .number {
+    --background: #406882;
+  }
+
+  .equal {
+    --background: #4485e6;
+  }
+
+  ion-button {
+
+    width: 81px;
+    height: 50px;
+    --background: #1A374D;
+    color: white;
+    font-family: 'Heebo', sans-serif;
+    font-weight: bold;
+    font-size: medium;
+  }
+
+  ion-item {
+    font-family: 'Heebo', sans-serif;
+    font-weight: bold;
+    font-size: medium;
+    --background: #406882;
+  }
+
+  .maior {
+    width: 166px;
+  }
 }

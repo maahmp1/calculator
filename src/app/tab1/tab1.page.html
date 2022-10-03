@@ -9,23 +9,23 @@
       </ion-button>
     </ion-buttons>
 
-    <ion-title>Calculadora</ion-title>
+    <ion-title>Calculator</ion-title>
   </ion-toolbar>
 
 </ion-header>
 
 <ion-content [fullscreen]="true">
   <ion-card>
-    <ion-item>
-      <ion-label position="fixed">Valor 1:</ion-label>
+    <ion-item lines="none">
+      <ion-label position="fixed">1st value:</ion-label>
       <ion-input placeholder="type here"></ion-input>
     </ion-item>
 
   </ion-card>
 
   <ion-card>
-    <ion-item>
-      <ion-label position="fixed">Valor 2:</ion-label>
+    <ion-item lines="none">
+      <ion-label position="fixed">2nd value:</ion-label>
       <ion-input placeholder="type here"></ion-input>
     </ion-item>
   </ion-card>
@@ -67,13 +67,13 @@
 
 
     <!-- 3 linha -->
-    <ion-button>
+    <ion-button class="number">
       7
     </ion-button>
-    <ion-button>
+    <ion-button class="number">
       8</ion-button>
 
-    <ion-button>
+    <ion-button class="number">
       9
     </ion-button>
     <ion-button>
@@ -81,15 +81,15 @@
     </ion-button>
 
     <!-- 3 linha -->
-    <ion-button>
+    <ion-button class="number">
       4
     </ion-button>
 
-    <ion-button>
+    <ion-button class="number">
       5
     </ion-button>
 
-    <ion-button>
+    <ion-button class="number">
       6
     </ion-button>
 
@@ -99,16 +99,16 @@
 
 
     <!-- 4 linha -->
-    <ion-button>
-      7
+    <ion-button class="number">
+      1
     </ion-button>
 
-    <ion-button>
-      8
+    <ion-button class="number">
+      2
     </ion-button>
 
-    <ion-button>
-      9
+    <ion-button class="number">
+      3
     </ion-button>
     <ion-button>
       <ion-icon name="add-outline"></ion-icon>
@@ -117,17 +117,17 @@
 
 
     <ion-button>
-      ±
+      +/-
     </ion-button>
 
-    <ion-button>
+    <ion-button class="number">
       0
     </ion-button>
 
     <ion-button>
       ,
     </ion-button>
-    <ion-button color="secondary">
+    <ion-button class="equal">
       <ion-icon name="reorder-two-outline"></ion-icon>
     </ion-button>
 
@@ -144,9 +144,15 @@
   <ion-card>
 
 
-    <ion-item>
+    <ion-item lines="none" class="downitens">
       <ion-label position="fixed">Total:</ion-label>
     </ion-item>
-
   </ion-card>
+  <ion-card>
+    <ion-item class="downitens" lines="none">
+      <ion-label position="fixed">Operation:</ion-label>
+    </ion-item>
+  </ion-card>
+
+
 </ion-content>
