@@ -1,0 +1,24 @@
+@import "../../theme/variables.scss";
+ion-content {
+
+
+  ion-item {
+    ion-label {
+      font-family: "Kanit", sans-serif;
+    }
+  }
+}
+ion-card {
+  ion-button {
+    width: 81px;
+    font-family: "Kanit", sans-serif;
+    font-weight: bold;
+    background: var(--ion-color-azulescuro);
+
+  }
+}
+.maior {
+  font-family: "Kanit", sans-serif;
+  font-weight: bold;
+  width: 166px;
+}
