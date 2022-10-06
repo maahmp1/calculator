@@ -1,69 +1,75 @@
-<<<<<<< HEAD
-ion-header {
-  font-family: 'Heebo', sans-serif;
+  ion-header {
+    font-family: 'Heebo', sans-serif;
 
 
-  ion-toolbar {
-    --background: #06283D;
+    ion-toolbar {
+      --background: #06283D;
+      ion-buttons{
+        ion-menu-button {
+          color: white;
+        }
+      }
+      ion-button {
 
-    ion-title {
-      font-family: 'Heebo', sans-serif;
-      font-weight: bold;
 
+        color: white;
+      }
+      ion-title {
+        font-family: 'Heebo', sans-serif;
+        font-weight: bold;
+        color: white;
+      }
     }
   }
-}
 
 
-ion-content {
-  --background: #B1D0E0;
-=======
-ion-content {
+  ion-content {
+    --background: #031927;
+    ion-button {
+      width: 81px;
+    }
 
-}
+    .maior {
+      width: 166px;
+    }
 
-ion-button {
-  width: 81px;
-}
-.maior {
-  width: 166px;
->>>>>>> abf119ad7933084d0a0b8d0f4b06e69542dba2fa
-}
+    ion-card {
+      --background: #37647a;
 
-ion-card {
-  --background: #CAF0F8;
+      .downitens {
+        --background: #6998AB;
+      }
 
-  .downitens {
-    --background: #6998AB;
+      .number {
+        --background: #7096ae;
+      }
+
+      .equal {
+        --background: #BA1200;
+      }
+
+      ion-button {
+
+        width: 81px;
+        height: 50px;
+        --background: #1e2c37;
+        color: white;
+        font-family: 'Heebo', sans-serif;
+        font-weight: bold;
+        font-size: medium;
+      }
+
+      ion-item {
+        padding-top: 2%;
+        font-family: 'Heebo', sans-serif;
+        font-weight: bold;
+        font-size: medium;
+        color: white;
+        --background: #508AA8;
+      }
+
+      .maior {
+        width: 166px;
+      }
+    }
   }
-
-  .number {
-    --background: #406882;
-  }
-
-  .equal {
-    --background: #4485e6;
-  }
-
-  ion-button {
-
-    width: 81px;
-    height: 50px;
-    --background: #1A374D;
-    color: white;
-    font-family: 'Heebo', sans-serif;
-    font-weight: bold;
-    font-size: medium;
-  }
-
-  ion-item {
-    font-family: 'Heebo', sans-serif;
-    font-weight: bold;
-    font-size: medium;
-    --background: #406882;
-  }
-
-  .maior {
-    width: 166px;
-  }
-}

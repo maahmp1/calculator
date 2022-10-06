@@ -1,24 +1,86 @@
-@import "../../theme/variables.scss";
-ion-content {
+ion-header {
+  font-family: 'Heebo', sans-serif;
 
 
-  ion-item {
-    ion-label {
-      font-family: "Kanit", sans-serif;
+  ion-toolbar {
+    --background: #06283D;
+    ion-buttons{
+      ion-menu-button {
+        color: white;
+      }
+    }
+    ion-button {
+      
+
+      color: white;
+
+    }
+
+    ion-title {
+      font-family: 'Heebo', sans-serif;
+      font-weight: bold;
+      color: white;
     }
   }
 }
-ion-card {
+
+
+ion-content {
+  --background: #031927;
+  ion-item {
+    padding-top: 2%;
+    font-family: 'Heebo', sans-serif;
+    font-weight: bold;
+    font-size: medium;
+    color: white;
+    --background: #7babc3;
+  }
+
+
   ion-button {
     width: 81px;
-    font-family: "Kanit", sans-serif;
-    font-weight: bold;
-    background: var(--ion-color-azulescuro);
-
   }
-}
-.maior {
-  font-family: "Kanit", sans-serif;
-  font-weight: bold;
-  width: 166px;
+
+  .maior {
+    width: 166px;
+  }
+
+  ion-card {
+    --background: #37647a;
+
+    .downitens {
+      --background: #6998AB;
+    }
+
+    .number {
+      --background: #7096ae;
+    }
+
+    .equal {
+      --background: #BA1200;
+    }
+
+    ion-button {
+
+      width: 81px;
+      height: 50px;
+      --background: #1e2c37;
+      color: white;
+      font-family: 'Heebo', sans-serif;
+      font-weight: bold;
+      font-size: medium;
+    }
+
+    ion-item {
+      font-family: 'Heebo', sans-serif;
+      font-weight: bold;
+      font-size: medium;
+      color: white;
+      --background: #508AA8;
+    }
+
+    .maior {
+      width: 166px;
+    }
+  }
 }
